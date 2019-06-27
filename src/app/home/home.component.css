@@ -1,0 +1,220 @@
+.container {
+  height: 100vh;
+  z-index: 1;
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    /* bottom, image */ url('/../../../assets/img/bg/bg-home-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-img {
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 22.5rem;
+  width: 22.5rem;
+  z-index: 2;
+}
+
+.bg-wrapper {
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  width: 100%;
+}
+
+.bg-wrapper img {
+  display: none !important;
+  max-width: 100%;
+  vertical-align: middle;
+  z-index: 3;
+}
+
+h1,
+h3,
+p {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  letter-spacing: 0.25rem;
+  margin: 0 0 0.25rem 0;
+  text-shadow: 1px 1px 2px darkgray, 0 0 1em black, 0 0 0.2em black;
+}
+h1 {
+  font-size: 3rem;
+  color: white;
+  line-height: 4rem;
+}
+h3 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: goldenrod;
+}
+p {
+  line-height: 1.9rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: lightgray;
+}
+
+@media only screen and (min-width: 280px) {
+  .profile-img {
+    height: 11rem;
+    width: 11rem;
+    margin-top: 1rem;
+  }
+  h1,
+  h3,
+  p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.75rem;
+  }
+}
+@media only screen and (min-width: 321px) {
+  .profile-img {
+    height: 13rem;
+    width: 13rem;
+  }
+  h1,
+  h3,
+  p {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.85rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 577px) {
+  .profile-img {
+    height: 17rem;
+    width: 17rem;
+  }
+  h1 {
+    font-size: 3.2rem;
+  }
+  h3 {
+    font-size: 1.45rem;
+  }
+}
+@media only screen and (min-width: 577px) {
+  .profile-img {
+    height: 21rem;
+    width: 21rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  h1,
+  h3,
+  p {
+    text-align: left;
+  }
+  .container {
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .profile-img {
+    height: 27rem;
+    width: 27rem;
+  }
+}
+@media only screen and (min-width: 1280px) and (min-height: 900px) and (max-height: 1100px) {
+  .profile-img {
+    height: 30rem;
+    width: 30rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .profile-img {
+    height: 30rem;
+    width: 30rem;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .profile-img {
+    height: 35rem;
+    width: 35rem;
+  }
+  h1,
+  h3,
+  p {
+    margin: 0 0 0.8rem 0;
+  }
+  h1 {
+    font-size: 4.25rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  h1,
+  h3,
+  p {
+    margin: 0 0 1.45rem 0;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.55rem;
+  }
+}
+@media only screen and (min-width: 2500px) and (min-height: 1100px) {
+  .profile-img {
+    height: 45rem;
+    width: 45rem;
+  }
+}
+@media only screen and (min-width: 3000px) {
+  .profile-img {
+    height: 50rem;
+    width: 50rem;
+  }
+  h1,
+  h3,
+  p {
+    margin: 0 0 3.5rem 0;
+  }
+  h1 {
+    font-size: 9.5rem;
+  }
+  h3 {
+    font-size: 2.95rem;
+  }
+  p {
+    font-size: 1.9rem;
+  }
+}

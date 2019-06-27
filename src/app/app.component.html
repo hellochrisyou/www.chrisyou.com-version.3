@@ -1,0 +1,74 @@
+<main class="container">
+  <mat-tab-group mat-align-tabs="center" animationDuration="1400ms">
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <img class="icon" src="../assets/img/logo.png" />Home
+        <!-- <i class="fa fa-home-card tab-icon" aria-hidden="true"></i> -->
+      </ng-template>
+      <ng-template matTabContent>
+        <app-home></app-home>
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <i class="fa fa-id-card tab-icon" aria-hidden="true"></i>
+        Background
+      </ng-template>
+      <ng-template matTabContent>
+        <app-background></app-background>
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <i class="fa fa-file tab-icon"></i>
+        Resume
+      </ng-template>
+      <ng-template matTabContent>
+        <app-resume></app-resume>
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <i class="fa fa-tasks tab-icon"></i>
+        Skills
+      </ng-template>
+      <ng-template matTabContent>
+        <app-skill></app-skill>
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <i class="fa fa-sitemap tab-icon"></i>
+        Projects
+      </ng-template>
+      <ng-template matTabContent>
+        <app-project></app-project>
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <i class="fa fa-pencil tab-icon"></i> Testimonials
+      </ng-template>
+      <ng-template matTabContent>
+        <app-testimonial></app-testimonial>
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <i class="fa fa-microphone tab-icon"></i>
+        Recordings
+      </ng-template>
+      <ng-template matTabContent>
+        <app-recording></app-recording>
+      </ng-template>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <i class="fa fa-whatsapp tab-icon"></i>
+        Social Media
+      </ng-template>
+      <app-social-media></app-social-media>>
+      <!-- </mat-tab> -->
+    </mat-tab>
+  </mat-tab-group>
+</main>

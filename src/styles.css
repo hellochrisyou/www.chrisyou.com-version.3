@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Six+Caps);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+/* Reset CSS */
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+big,
+cite,
+code,
+em,
+img,
+ins,
+q,
+s,
+small,
+strong,
+b,
+u,
+i,
+center,
+dl,
+dt,
+ol,
+ul,
+li,
+label,
+caption,
+article,
+aside,
+details,
+figure,
+figcaption,
+header,
+section,
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+header,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+body {
+  margin: 0;
+  background-color: #e4e1d7 !important;
+}
+/* .mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  height: 4px !important;
+  bottom: 20%;
+} */

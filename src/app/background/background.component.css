@@ -1,0 +1,338 @@
+body {
+  background-color: white;
+  height: auto;
+}
+
+br {
+  display: block;
+  content: '';
+  margin-top: 0.5rem;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-weight: 900;
+  margin: 0 0 1rem 0;
+  font-family: 'Satisfy', cursive;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.15rem;
+  margin: 0 0 1rem 0;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
+p.description {
+  line-height: 1.95rem;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.timeline {
+  padding: 7em 0 4em 1em;
+}
+.timeline:last-child {
+  padding: 7em 0 4em 1em;
+}
+.timeline .wrapper {
+  padding-left: 2em;
+  border-left: 0.4em solid tomato;
+  position: relative;
+}
+.timeline .wrapper:before {
+  content: '';
+  padding: 0;
+  margin: 0;
+  background-color: tomato;
+  height: 1em;
+  width: 1em;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.5714285714em;
+  left: -0.7142857143em;
+}
+.timeline .wrapper:after {
+  content: '';
+  padding: 0;
+  margin: 0;
+  height: 6em;
+  width: 1em;
+  position: absolute;
+  bottom: 0;
+  left: -1em;
+  background: -moz-linear-gradient(
+    top,
+    rgba(232, 232, 232, 0) 0%,
+    rgba(232, 232, 232, 0.65) 49%,
+    #e8e8e8 100%
+  );
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(232, 232, 232, 0) 0%,
+    rgba(232, 232, 232, 0.65) 49%,
+    #e8e8e8 100%
+  );
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(232, 232, 232, 0) 0%,
+    rgba(232, 232, 232, 0.65) 49%,
+    #e8e8e8 100%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e8e8e8', endColorstr='#e8e8e8',GradientType=0 );
+  /* IE6-9 */
+}
+
+.timeline time {
+  position: relative;
+  font-size: 1.875em;
+  margin-top: -1em;
+  display: inline-block;
+  font-family: sans-serif;
+}
+.timeline time:before {
+  content: '';
+  display: inline-block;
+  width: 0.6666666667em;
+  height: 0.125em;
+  background-color: tomato;
+  position: absolute;
+  left: -1.2em;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.timeline time:after {
+  content: '';
+  padding: 0;
+  margin: 0;
+  background-color: tomato;
+  height: 0.3333333333em;
+  width: 0.3333333333em;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -0.6666666667em;
+}
+
+img {
+  margin: 0 auto;
+}
+
+/* Media Query */
+@media (min-width: 600px) {
+  .timeline .wrapper {
+    padding-left: 14em;
+  }
+  .timeline time {
+    font-size: 2.25em;
+    margin-top: 0;
+    display: inline-block;
+    position: absolute;
+    top: 0.5em;
+    left: -3.1em;
+  }
+  .timeline time:before {
+    content: '';
+    width: 2.4em;
+    height: 0.0833333333em;
+    left: -3.2em;
+  }
+  .timeline time:after {
+    left: -1em;
+  }
+  .timeline section time {
+    top: 1em;
+  }
+  .timeline section:first-child time {
+    top: 0.2em;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+.header,
+body {
+  background: url('../../assets/img/bg/background-bg.png');
+  text-align: center;
+}
+
+.header {
+  top: 0;
+  position: relative;
+  width: 100%;
+}
+div.halo + div {
+  margin-top: 8vh;
+}
+.halo {
+  background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.6));
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 6;
+  pointer-events: none;
+}
+
+.intro {
+  color: rgb(230, 200, 160);
+  display: block;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.45rem;
+  text-shadow: 1px 1px black;
+  transform: rotate(-10deg);
+  margin-top: 2rem;
+}
+
+.intro--the {
+  transform: rotate(-10deg) translate(-20px, 15px);
+}
+
+.intro--num {
+  background: rgb(240, 200, 160);
+  border: 1px dotted rgb(20, 60, 80);
+  color: rgb(20, 60, 80);
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  font-weight: bolder;
+  padding: 4px 6px 2px;
+  position: absolute;
+  text-shadow: none;
+  transform: rotate(-10deg) translate(20px, -25px);
+}
+
+.vintage__container {
+  display: inline-block;
+  margin: 25px auto 40px;
+}
+
+.vintage {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 9rem;
+  letter-spacing: 10px;
+  line-height: 1;
+  margin: 0;
+  position: relative;
+}
+
+.vintage__top {
+  background: linear-gradient(rgb(240, 220, 200), rgb(230, 200, 160));
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+  z-index: 1;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+
+.vintage__bot {
+  text-shadow: 2px 1px rgb(85, 10, 0), 4px 2px rgb(90, 15, 5),
+    6px 4px rgb(100, 20, 15), 8px 5px rgb(105, 25, 20),
+    10px 6px rgb(110, 30, 25), 12px 7px rgb(115, 30, 30),
+    14px 8px rgb(120, 30, 35), 16px 9px black, 18px 10px black, 20px 11px black,
+    22px 12px black, 24px 13px black, 28px 14px rgba(0, 0, 0, 0.9),
+    30px 15px rgba(0, 0, 0, 0.7), 32px 16px rgba(0, 0, 0, 0.5),
+    34px 17px rgba(0, 0, 0, 0.3), 36px 18px rgba(0, 0, 0, 0.1),
+    40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.outro {
+  color: white;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.45rem;
+}
+
+.outro--big {
+  font-family: sans-serif;
+  font-size: 1.55rem;
+}
+
+.outro--smart {
+  display: block;
+}
+
+/* Timeline Cont */
+.timeline section {
+  padding: 2em 0;
+  position: relative;
+  border-bottom: 1px solid #a8a8a8;
+  background-color: #5a0f05;
+  color: #ead0af;
+  padding: 1rem !important;
+}
+.timeline section:first-child {
+  padding: 0 0 2em 0;
+  margin-top: -2em;
+}
+.timeline section:last-child {
+  border-bottom: none;
+}
+.timeline section h2,
+.timeline section h3,
+.timeline section h4,
+.timeline section h5,
+.timeline section h6 {
+  padding-top: 0;
+}
+.timeline section p:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 576px) {
+  h3 {
+    font-size: 1.6em;
+  }
+  h4 {
+    font-size: 1.25em;
+  }
+  img {
+    max-width: 95%;
+  }
+  u,
+  i {
+    font-size: 0.95em;
+  }
+  .vintage {
+    font-size: 5.75rem;
+  }
+  .outro {
+    font-size: 0.8rem;
+  }
+  .intro {
+    font-size: 1.05rem;
+  }
+  .intro--num {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .intro {
+    font-size: 1.2rem;
+  }
+  .outro {
+    font-size: 1rem;
+  }
+  .intro--num {
+    font-size: 0.6rem;
+  }
+  .vintage {
+    font-size: 9rem;
+  }
+}

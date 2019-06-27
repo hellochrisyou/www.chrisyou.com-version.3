@@ -1,0 +1,240 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+figure.snip1104 img {
+  position: relative;
+  margin-top: 9vh;
+  margin-bottom: 5vh;
+}
+.container {
+  background: #e4e1d7;
+}
+.banner {
+  min-height: 100vh;
+  width: 100%;
+  background: #e4e1d7;
+  position: relative;
+}
+
+.embossedtext {
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: -2px 2px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  line-height: 1.5rem;
+  letter-spacing: 0.25rem;
+  background-color: transparent;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.embossed {
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  box-shadow: inset -2px 2px 1px rgba(0, 0, 0, 0.2),
+    -2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.circle {
+  width: 35vw;
+  height: 35vw;
+  border-radius: 50%;
+}
+
+.content {
+  font-size: 2rem;
+  padding: 0.7rem;
+  width: 90vw;
+}
+
+.fa {
+  padding: 10px 15px 0;
+}
+
+.upper {
+  height: 100vh;
+  top: 0;
+}
+
+@media only screen and (max-width: 321px) {
+  .embossedtext {
+    font-size: 0.75rem;
+  }
+  .circle .embossedtext {
+    font-size: 0.5rem;
+  }
+  div.circle.embossed {
+    margin-top: 7.5vh;
+  }
+}
+@media only screen and (min-width: 322px) {
+  .embossedtext {
+    font-size: 1.25rem;
+  }
+  .circle .embossedtext {
+    font-size: 0.6rem;
+  }
+  div.circle.embossed {
+    margin-top: 7.5vh;
+  }
+  figure.snip1104,
+  img {
+    max-width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content {
+    max-width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  img {
+    max-width: 82vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .circle .embossedtext {
+    font-size: 1rem;
+  }
+  .embossedtext {
+    line-height: 2rem;
+  }
+  .content {
+    width: 70vw;
+  }
+  .circle {
+    width: 29.5vw;
+    height: 29.5vw;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  img {
+    width: 55vw;
+  }
+  .circle .embossedtext {
+    font-size: 1rem;
+  }
+  .circle {
+    width: 17vw;
+    height: 17vw;
+  }
+  .content {
+    width: 60vw;
+  }
+}
+@media only screen and (min-width: 1279px) {
+  .content {
+    width: 50vw;
+  }
+  .circle .embossedtext {
+    font-size: 1.35rem;
+  }
+}
+@media only screen and (min-width: 1279px) and (min-height: 1000px) {
+  .content {
+    max-width: 40vw;
+  }
+}
+
+@media only screen and (min-width: 1365px) {
+  .embossed {
+  }
+  .circle .embossedtext {
+    font-size: 1.2rem;
+  }
+  img {
+    width: 40vw;
+  }
+  .circle {
+    width: 14vw;
+    height: 14vw;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .circle {
+    width: 13vw;
+    height: 13vw;
+  }
+  .circle .embossedtext {
+    font-size: 1.3rem;
+  }
+  .embossedtext {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .circle {
+    width: 11vw;
+    height: 11vw;
+  }
+  .content {
+    max-width: 40vw;
+  }
+  .embossedtext {
+    line-height: 2.5rem;
+  }
+}
+@media only screen and (min-width: 1921px) and (min-height: 1000px) {
+  .embossedtext {
+    line-height: 3rem;
+  }
+  .content {
+    /* font-size: 1.8em; */
+    max-width: 30vw;
+  }
+  img {
+    width: 30vw;
+  }
+  .circle .embossedtext {
+    font-size: 1.45rem;
+  }
+  .circle {
+    width: 9vw;
+    height: 9vw;
+  }
+}
+
+@media only screen and (min-width: 1921px) and (min-height: 1100px) {
+  .content {
+    /* padding-top: 2rem; */
+    max-width: 16vw;
+  }
+  .circle {
+    width: 10vw;
+    height: 10vw;
+  }
+  .content {
+    max-width: 45vw;
+  }
+  .circle .embossedtext {
+    font-size: 1.6rem;
+  }
+  img {
+    width: 45vw;
+  }
+  .embossedtext {
+    line-height: 3.3rem;
+  }
+}
+@media only screen and (min-width: 2621px) and (min-height: 1800px) {
+  .circle .embossedtext {
+    font-size: 1.9rem;
+  }
+  .content {
+    width: 35vw;
+  }
+  img {
+    width: 40vw;
+  }
+}

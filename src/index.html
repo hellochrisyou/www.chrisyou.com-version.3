@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Chris You Portfolio Website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta
+      name="keywords"
+      content="chris, you, website, portfolio, software, engineer, developer, development, full, stack, full-stack, base2technologies, ains, wayne, state, university, 
+      cleveland, institute, of, music, mannes, college, for, music, new, school, w.t., woodson, clarinet, music, classical, bolero, eb, aspen, nso, national, symphony, 
+      orchestra, fellowship, fellow, til, eulenspiegal, strauss, solo, soprano, nielson, concerto, tosca, puccini, la, traviata, shostakovich, 5, berlioz, fantasique"
+    />
+    <meta name="autho" content="Chris You" />
+    <title>Chris You</title>
+    <base href="/" />
+
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <link
+      href="//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link rel="preload" href="assets/img/bg/project-bg.png" />
+    <link rel="preload" href="assets/img/education/ains.png" />
+    <link rel="preload" href="assets/img/education/base2tech.png" />
+    <link rel="preload" href="assets/img/education/education-aspen.png" />
+    <link rel="preload" href="assets/img/education/education-cim.png" />
+    <link rel="preload" href="assets/img/education/education-fellowship.jpg" />
+    <link rel="preload" href="assets/img/education/education-laptop.jpg" />
+    <link rel="preload" href="assets/img/education/education-mannes.jpg" />
+    <link rel="preload" href="assets/img/education/education-wayne.jpg" />
+    <link rel="preload" href="assets/img/projects/audit.png" />
+    <link rel="preload" href="assets/img/projects/DataImport.png" />
+    <link rel="preload" href="assets/img/projects/eCommerce-Buy-New.png" />
+    <link rel="preload" href="assets/img/projects/ffootball.png" />
+    <link rel="preload" href="assets/img/projects/s3.png" />
+    <link rel="preload" href="assets/img/projects/TechnoBabel.png" />
+    <link rel="preload" href="assets/img/loading/spinner1.jpg" />
+    <link rel="preload" href="assets/img/loading/spinner2.jpg" />
+    <link rel="preload" href="assets/img/testimony/Testimony-Sang.png" />
+    <link rel="preload" href="assets/img/testimony/Testimony-Eric.png" />
+    <link rel="preload" href="assets/img/testimony/Testimony-David.png" />
+    <link rel="preload" href="assets/img/testimony/Testimony-Caleb.png" />
+    <link rel="preload" href="assets/img/testimony/Testimony-Max.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <style>
+    @keyframes spinner {
+      100% {
+        transform: rotate(3600deg);
+      }
+    }
+
+    .loading-container {
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      top: 50vh;
+      transform: translateY(-50%);
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background: url('./assets/img/loading/spinner2.jpg') center center;
+      background-size: contain;
+      transform-origin: 50% 50%;
+      animation: spinner 3s infinite alternate ease-in-out;
+    }
+    .spinner-center {
+      display: inline-block;
+      position: absolute;
+      margin-left: -100px;
+      width: 100px;
+      height: 100px;
+      background: url('./assets/img/loading/spinner1.jpg') center center;
+      background-size: contain;
+      content: '';
+    }
+
+    .loading-text {
+      position: relative;
+      z-index: 1;
+      font-size: 1.5rem;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin-left: 0.5em;
+    }
+  </style>
+  <body>
+    <app-root class="app-root">
+      <div class="loading-container mat-elevation-9" style="padding: 0">
+        <div class="spinner"></div>
+        <div class="spinner-center"></div>
+        <div class="loading-text">Loading...</div>
+      </div>
+    </app-root>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-139547067-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-139547067-1');
+    </script>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+@import url(https://codepen.io/chrisdothtml/pen/ojLzJK.css);
+
+section {
+  font-family: 'Special Elite', cursive;
+  background: -webkit-linear-gradient(to right, #f15f79, #b24592);
+  background: linear-gradient(to right, #f15f79, #b24592);
+  height: 100vh;
+  text-align: center;
+}
+
+/* Social */
+
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.social-btns .btn.facebook:before {
+  background-color: #3b5998;
+}
+.social-btns .btn.facebook .fa {
+  color: #3b5998;
+}
+.social-btns .btn.linkedin:before {
+  background-color: #007bb6;
+}
+.social-btns .btn.linkedin .fa {
+  color: #007bb6;
+}
+.social-btns .btn.twitter:before {
+  background-color: #3cf;
+}
+.social-btns .btn.twitter .fa {
+  color: #3cf;
+}
+.social-btns .btn.instagram:before {
+  background: linear-gradient(
+    #405de6,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+}
+.social-btns .btn.instagram .fa {
+  color: #e1306c;
+}
+.social-btns .btn.snapchat:before {
+  background-color: #fffc00;
+}
+.social-btns .btn.snapchat .fa {
+  color: #fffc00;
+}
+.social-btns .btn.github:before {
+  background-color: #000000;
+}
+.social-btns .btn.github .fa {
+  color: #000000;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.social-btns {
+  height: 90px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.social-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  opacity: 0.99;
+}
+.social-btns .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 38px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-btns .btn {
+    margin: 1.75%;
+  }
+}
+
+/* Contact Logo */
+h1 {
+  display: inline-block;
+  font-size: 4.25rem;
+  font-weight: 300;
+  letter-spacing: 0.1618em;
+  line-height: 2.618em;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1:hover {
+  cursor: default;
+}
+
+h1 span {
+  color: #2ecc71;
+  display: inline;
+}
+
+/* End */
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+}
+@media only screen and (min-width: 321px) {
+  h1 {
+    font-size: 2.35rem;
+  }
+}
+@media only screen and (min-width: 480px) {
+  h1 {
+    font-size: 3.75rem;
+  }
+}
+@media only screen and (min-width: 569px) {
+  h1 {
+    font-size: 5rem;
+  }
+  body.welcome {
+    padding: 7rem;
+  }
+  .social-btns .btn {
+    margin: 1rem;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  h1 {
+    font-size: 8.5rem;
+  }
+}
+@media only screen and (min-width: 2500px) {
+  h1 {
+    font-size: 11rem;
+  }
+  .social-btns a {
+    width: 8rem !important;
+    height: 8rem !important;
+    padding-top: 1rem;
+  }
+  .social-btns a i {
+    font-size: 3rem !important;
+  }
+}

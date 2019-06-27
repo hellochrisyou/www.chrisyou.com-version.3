@@ -1,0 +1,672 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  text-align: justify;
+}
+body {
+  background-color: #e6e6d8;
+  overflow: hidden;
+}
+.banner {
+  height: 100vh;
+}
+.box-container {
+  display: flex;
+  min-height: fit-content;
+  margin-top: 0;
+  height: fit-content;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background: 0 0;
+}
+
+.box-container,
+article,
+.slider-wrapper,
+figure.snip1197 {
+  background-color: #e4e1d7 !important;
+}
+
+blockquote:after,
+blockquote:before {
+  font-family: FontAwesome;
+  content: '\201C';
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+  color: #81bedb;
+}
+
+blockquote:before {
+  top: 0.4em;
+  left: 0;
+}
+
+blockquote:after {
+  content: '\201D';
+  right: 0.4rem;
+  bottom: 0;
+}
+
+cite {
+  color: gray;
+  display: block;
+  font-size: 0.75em;
+}
+
+cite span {
+  color: #5e5e5e;
+  font-weight: 820;
+  text-transform: uppercase;
+  text-shadow: 0 1px #fff;
+  font-size: 1em;
+}
+
+p {
+  text-align: justify;
+}
+
+.wrapper {
+  max-width: 60em;
+  margin: auto;
+  position: relative;
+}
+
+input {
+  display: none;
+}
+
+.inner {
+  width: 500%;
+  line-height: 0;
+}
+
+article {
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+article img {
+  width: 100%;
+}
+
+.slider-dot-control {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 7vh;
+  height: 1vh;
+  text-align: center;
+}
+
+.slider-dot-control label {
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0.65rem;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: goldenrod;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.slider-dot-control label:hover {
+  background: #fff;
+  border-color: #777;
+}
+
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0;
+  background: 0 0;
+  padding: 5rem 0 5rem;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  max-height: fit-content;
+}
+
+.slider-wrapper .inner {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+#slide1:checked ~ .slider-dot-control label:nth-child(1),
+#slide2:checked ~ .slider-dot-control label:nth-child(2),
+#slide3:checked ~ .slider-dot-control label:nth-child(3),
+#slide4:checked ~ .slider-dot-control label:nth-child(4),
+#slide5:checked ~ .slider-dot-control label:nth-child(5) {
+  background: #333;
+}
+
+#slide1:checked ~ .slider-wrapper article:nth-child(1) .info,
+#slide2:checked ~ .slider-wrapper article:nth-child(2) .info,
+#slide3:checked ~ .slider-wrapper article:nth-child(3) .info,
+#slide4:checked ~ .slider-wrapper article:nth-child(4) .info,
+#slide5:checked ~ .slider-wrapper article:nth-child(5) .info {
+  opacity: 1;
+}
+
+#slide1:checked ~ .slider-wrapper .inner {
+  margin-left: 0;
+}
+
+#slide2:checked ~ .slider-wrapper .inner {
+  margin-left: -100%;
+}
+
+#slide3:checked ~ .slider-wrapper .inner {
+  margin-left: -200%;
+}
+
+#slide4:checked ~ .slider-wrapper .inner {
+  margin-left: -300%;
+}
+
+#slide5:checked ~ .slider-wrapper .inner {
+  margin-left: -400%;
+}
+
+p {
+  line-height: normal;
+}
+
+section {
+  min-height: 62vh;
+}
+
+figure.snip1197 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+figure.snip1197 img {
+  float: right;
+  max-width: 40%;
+  vertical-align: middle;
+  border-radius: 0 8px 8px 0;
+}
+
+figure.snip1197 figcaption {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 8px 0 0 8px;
+}
+
+br {
+  display: block;
+  content: '';
+  margin-top: 0 !important;
+  line-height: 0.1em !important;
+}
+
+/* Header */
+/* fontawesome */
+[class*='fontawesome-']:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+section.text {
+  position: relative;
+  width: 100%;
+  min-width: 800px;
+  max-width: 100%;
+}
+
+h1,
+h3 {
+  background-color: #e6e6d8;
+  transform: matrix(1, -0.2, 0, 1, 0, 0);
+  -ms-transform: matrix(1, -0.2, 0, 1, 0, 0);
+  -webkit-transform: matrix(1, -0.2, 0, 1, 0, 0);
+}
+
+h1 {
+  font-family: 'Oswald', Sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 3.2rem;
+  margin-top: 0.2rem;
+  text-shadow: 4px 5px #e6e6d8, 6px 7px #c6a39a;
+}
+
+h1 span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+span.star {
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: 'Open Sans', Sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  position: relative;
+}
+
+h3:before,
+h3:after {
+  content: ' ';
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  border-top: 2px solid #121212;
+  border-bottom: 2px solid #121212;
+}
+
+h3:before {
+  margin: 5px 0 0 -110px;
+}
+
+h3:after {
+  margin: 5px 0 0 10px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 500px) {
+  figure.snip1197 {
+    display: inline;
+    position: relative;
+    max-width: 90vw;
+    min-width: 90vw;
+    min-height: 100%;
+    color: #333;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  figcaption {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+  }
+  blockquote:after,
+  blockquote:before {
+    display: none;
+  }
+
+  /* Header */
+  .text span.star {
+    font-size: 2rem;
+  }
+  .text h3 {
+    font-size: 0.5rem;
+  }
+  section.text {
+    padding-top: 20vh;
+  }
+  figure.snip1197 blockquote {
+    position: relative;
+    text-align: justify;
+    margin: 0;
+    font-style: italic;
+    display: block;
+    background-color: transparent;
+    border-left: 0;
+    border-radius: 0;
+    padding: 2em 2em 1em 0;
+    line-height: 1.75em;
+    border: 0;
+    font-size: 0.45em !important;
+    font-weight: 100;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+  }
+  figure.snip1197 blockquote.eric-quote {
+    padding: 1em;
+  }
+  cite {
+    font-weight: 400;
+    font-size: 0.45rem;
+  }
+  cite span {
+    font-size: 0.65rem;
+  }
+  .banner {
+    height: 32vh;
+    max-width: 100%;
+  }
+  div {
+    line-height: normal;
+  }
+  b {
+    font-size: 0.85em;
+  }
+  i {
+    font-size: 0.75em;
+  }
+}
+@media only screen and (max-width: 480px) and (max-height: 569px) {
+  figure.snip1197 blockquote {
+    font-weight: 300;
+  }
+}
+@media only screen and (max-width: 480px) and (min-height: 700px) {
+  figure.snip1197 blockquote {
+    font-size: 0.505rem;
+    font-weight: 300;
+  }
+  cite span {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (min-width: 481px) {
+  section {
+    min-height: initial;
+  }
+  .banner {
+    height: 40vh;
+  }
+  figure.snip1197 {
+    position: relative;
+    max-width: 88vw;
+    min-width: 88vw;
+    min-height: 100%;
+    color: #333;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .box-container {
+    align-items: start;
+  }
+  .slider-dot-control {
+    bottom: 2.5vh;
+  }
+  figure.snip1197 blockquote {
+    position: relative;
+    text-align: left;
+    margin: 0;
+    font-style: italic;
+    display: block;
+    background-color: transparent;
+    border-left: 0;
+    border-radius: 0;
+    padding: 2rem 2rem 1rem 0;
+    line-height: 1.5em;
+    border: 0;
+    font-size: 0.785rem;
+    font-weight: 50;
+    text-align: justify;
+  }
+  div {
+    line-height: normal;
+  }
+  b {
+    font-size: 1.3em;
+  }
+
+  i {
+    font-size: 0.95em;
+  }
+  figcaption {
+    padding-left: 1rem;
+    padding-bottom: 2em;
+  }
+  cite {
+    font-weight: 350;
+    font-size: 0.8rem;
+    line-height: 1.35rem;
+  }
+  cite span {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  figure.snip1197 blockquote {
+    font-size: 1rem;
+  }
+  cite {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+  cite span {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (min-width: 769px) {
+  section {
+    min-height: 100vh;
+  }
+  .banner {
+    height: 90vh;
+  }
+  .slider-wrapper {
+    top: 5em;
+  }
+  figure {
+    margin: 0;
+  }
+  figure.snip1197 {
+    min-width: 75vw;
+    width: auto;
+  }
+  .box-container {
+    min-width: 100vw;
+    background-color: #e6e6d8;
+    min-height: none;
+    margin-top: 7em;
+  }
+  figure.snip1197 blockquote {
+    padding: 2.25rem 2.25rem 1.25rem 0;
+    font-size: 1.3rem;
+  }
+  figcaption {
+    padding-left: 1.25rem;
+    padding-bottom: 2.25em;
+  }
+}
+
+@media only screen and (min-width: 1279px) {
+  figure.snip1197 {
+    min-width: 84vw;
+    width: auto;
+  }
+  .box-container {
+    min-width: 0;
+  }
+  figure.snip1197 blockquote {
+    padding: 3.3rem 3rem 3rem 0;
+    font-size: 1.65rem;
+    font-weight: 50;
+    margin-top: 0;
+    line-height: 2.5rem;
+  }
+  figcaption {
+    padding-left: 3rem;
+    padding-bottom: 3em;
+  }
+  cite {
+    font-size: 1.35rem;
+    line-height: 2.25rem;
+  }
+  cite span {
+    font-size: 1.85rem;
+  }
+}
+
+@media only screen and (min-width: 1279px) and (min-height: 1000px) {
+  .box-container {
+    margin-top: 14rem;
+  }
+}
+
+@media only screen and (min-width: 1365px) {
+  section {
+    min-height: 80vh;
+  }
+  .box-container {
+    margin-top: 3em;
+  }
+  figure.snip1197 {
+    min-width: 70vw;
+    margin-top: 0 !important;
+  }
+  .slider-dot-control {
+    bottom: 5vh;
+  }
+  figcaption {
+    padding-left: 3rem;
+    padding-bottom: 3em;
+  }
+  cite {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  cite span {
+    font-size: 1.85rem;
+  }
+  figure.snip1197 blockquote {
+    padding: 3rem 3rem 1rem 0;
+    font-size: 1.45rem;
+  }
+  figure.snip1197 blockquote.eric-quote {
+    padding: 2em !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  section {
+    min-height: 80vh;
+  }
+  section.text {
+    font-size: 1rem;
+  }
+  section.text span.star {
+    font-size: 5rem;
+  }
+}
+@media only screen and (min-width: 1599px) {
+  figure.snip1197 blockquote {
+    margin-top: 2.5vh;
+    padding-bottom: 3rem;
+  }
+}
+@media only screen and (min-width: 1919px) {
+  figure.snip1197 blockquote {
+    margin-top: 2vh;
+    font-size: 2rem;
+    line-height: 1.8em;
+  }
+  .slider-wrapper {
+    overflow: hidden;
+  }
+  .slider-dot-control {
+    bottom: 3.5vh;
+  }
+  i {
+    margin-top: 0.5em;
+    font-size: 1em;
+  }
+  cite {
+    font-size: 1.45rem;
+  }
+  cite span {
+    font-size: 2.1rem;
+  }
+}
+
+@media only screen and (min-width: 2100px) and (max-height: 1199px) {
+  img {
+    width: auto;
+    max-height: inherit;
+  }
+  .box-container {
+    padding: 0;
+  }
+  .slider-dot-control {
+    bottom: 5vh;
+  }
+  figure.snip1197,
+  figure.snip1197 img {
+    height: 65vh;
+    max-width: auto;
+  }
+  cite {
+    font-size: 1.8rem;
+  }
+  cite span {
+    font-size: 2.75rem;
+  }
+}
+
+@media only screen and (min-width: 2100px) and (min-height: 1200px) {
+  #scroll {
+    min-height: auto;
+    max-height: 70vh;
+    overflow: hidden;
+  }
+  .box-container {
+    overflow: hidden !important;
+    margin-top: 10vh;
+  }
+  figure.snip1197 blockquote {
+    margin-top: 2.5em;
+    font-size: 2.5rem;
+  }
+  figure.snip1197 blockquote.eric-quote {
+    margin-top: 1vh !important;
+    padding: 2em !important;
+  }
+  .slider-dot-control {
+    bottom: 1vh;
+  }
+  cite {
+    font-size: 1.8rem;
+  }
+  cite span {
+    font-size: 2.75rem;
+  }
+  section.text {
+    font-size: 1.5rem;
+  }
+  section.text span.star {
+    font-size: 6rem;
+  }
+}
+@media only screen and (min-width: 2561px) and (min-height: 1200px) {
+  figure.snip1197 blockquote {
+    margin-top: 2em.5;
+    font-size: 2.4em;
+    line-height: 2em;
+  }
+  figure.snip1197 {
+    min-width: 48vw;
+  }
+  section {
+    min-height: 50vh;
+  }
+
+  cite {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  cite span {
+    font-size: 3.5rem;
+  }
+}
