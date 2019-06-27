@@ -1,6 +1,6 @@
 Visit http://www.chrisyou.com
 
-<p align="center">Domain: Google</p>
+<p align="center"><b>Domain</b> Google</p>
 <p align="center">Hosted by: AWS S3 Bucket</p>
 
 <p align="center">
