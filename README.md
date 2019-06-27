@@ -1,4 +1,4 @@
-<p align="center">http://www.chrisyou.com </p>
+<p align="center">www.chrisyou.com </p>
 
 <p align="center"><b>Domain</b><br>Google<br>
   <b>Hosted by</b><br> AWS S3 Bucket<br> </p>
