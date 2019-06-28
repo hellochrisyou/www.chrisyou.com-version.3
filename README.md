@@ -1,9 +1,1 @@
-<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/banner-website.png" width="100%"/>
-<p align="center">www.chrisyou.com </p>
-
-<p align="center"><b>Domain</b><br>Google<br>
-  <b>Hosted by</b><br> AWS S3 Bucket<br> </p>
-
-<p align="center">
-  <img src="https://chrisyou-backup-website.s3.amazonaws.com/assets/website-3.png" width ="400px">
-</p>
+<img  src="https://chrisyou-backup-website.s3.amazonaws.com/assets/github-preview/website3/final-website3.png" width="100%"/>
