@@ -5,19 +5,30 @@ body {
 
 br {
   display: block;
-  content: '';
+  content: "";
   margin-top: 0.5rem;
+}
+
+img.polaroid {
+  background: #000; /*Change this to a background image or remove*/
+  border: solid #fff;
+  border-width: 6px 6px 20px 6px;
+  box-shadow: 1px 1px 5px #333; /* Standard blur at 5px. Increase for more depth */
+  -webkit-box-shadow: 1px 1px 5px #333;
+  -moz-box-shadow: 1px 1px 5px #333;
+  height: 200px; /*Set to height of your image or desired div*/
+  width: 200px; /*Set to width of your image or desired div*/
 }
 
 h3 {
   font-size: 2.25rem;
   font-weight: 900;
   margin: 0 0 1rem 0;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
 }
 
 h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 1.5em;
   font-weight: 500;
 }
@@ -26,7 +37,7 @@ p {
   font-size: 1.15rem;
   margin: 0 0 1rem 0;
   text-align: left;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 p.description {
@@ -50,7 +61,7 @@ p.description {
   position: relative;
 }
 .timeline .wrapper:before {
-  content: '';
+  content: "";
   padding: 0;
   margin: 0;
   background-color: tomato;
@@ -62,7 +73,7 @@ p.description {
   left: -0.7142857143em;
 }
 .timeline .wrapper:after {
-  content: '';
+  content: "";
   padding: 0;
   margin: 0;
   height: 6em;
@@ -103,7 +114,7 @@ p.description {
   font-family: sans-serif;
 }
 .timeline time:before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 0.6666666667em;
   height: 0.125em;
@@ -114,7 +125,7 @@ p.description {
   transform: translateY(-50%);
 }
 .timeline time:after {
-  content: '';
+  content: "";
   padding: 0;
   margin: 0;
   background-color: tomato;
@@ -145,7 +156,7 @@ img {
     left: -3.1em;
   }
   .timeline time:before {
-    content: '';
+    content: "";
     width: 2.4em;
     height: 0.0833333333em;
     left: -3.2em;
@@ -168,7 +179,7 @@ img {
 /* Header */
 .header,
 body {
-  background: url('../../assets/img/bg/background-bg.png');
+  background: url("../../assets/img/bg/background-bg.png");
   text-align: center;
 }
 
@@ -193,7 +204,7 @@ div.halo + div {
 .intro {
   color: rgb(230, 200, 160);
   display: block;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 1.45rem;
   text-shadow: 1px 1px black;
   transform: rotate(-10deg);
@@ -224,7 +235,7 @@ div.halo + div {
 }
 
 .vintage {
-  font-family: 'Six Caps', sans-serif;
+  font-family: "Six Caps", sans-serif;
   font-size: 9rem;
   letter-spacing: 10px;
   line-height: 1;
@@ -255,7 +266,7 @@ div.halo + div {
 
 .outro {
   color: white;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 1.45rem;
 }
 

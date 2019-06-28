@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 @import url(https://fonts.googleapis.com/css?family=Six+Caps);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+html {
+  scroll-behavior: smooth;
+}
 
 body,
 html {
@@ -9,7 +13,7 @@ html {
 }
 
 body {
-  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 /* Reset CSS */
@@ -81,8 +85,18 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
+}
+
+a[href],
+input[type="submit"],
+input[type="image"],
+label[for],
+select,
+button,
+.pointer {
+  cursor: pointer;
 }
 
 body {
