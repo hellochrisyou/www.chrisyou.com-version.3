@@ -75,7 +75,7 @@ article {
 }
 
 h1 {
-  font-family: "Six Caps", sans-serif;
+  font-family: 'Six Caps', sans-serif;
   letter-spacing: 0.7rem;
   line-height: 1;
 }
@@ -176,7 +176,7 @@ input {
 
 p {
   line-height: normal;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 li {
@@ -234,7 +234,7 @@ li + li {
 
 /* Neon  */
 .project-neon {
-  font-family: "Pacifico", cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 2rem;
   border: none;
   color: rgba(255, 255, 255, 0.6);
@@ -294,7 +294,7 @@ li + li {
   position: relative;
   cursor: pointer;
   font-weight: 900;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: #333;
   text-align: left;
   padding: 0.175rem;
@@ -334,7 +334,7 @@ li + li {
 }
 
 .tooltip:before {
-  content: "";
+  content: '';
   background: white;
   transform: rotate(45deg);
   opacity: 1 !important;
@@ -493,7 +493,7 @@ a:hover {
   border: 1px solid #faa;
   color: #fff;
   display: block;
-  font: bold 81.25% "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 1px 0;
   padding: 10px 50px;
   text-align: center;
@@ -639,6 +639,7 @@ a:hover {
     left: 26vw;
   }
 }
+
 @media only screen and (min-width: 321px) and (min-height: 700px) {
   header {
     height: 15rem;
@@ -664,6 +665,22 @@ a:hover {
   }
   .project-desc {
     font-size: 0.875rem;
+  }
+}
+@media only screen and (max-width: 480px) and (min-height: 800px) {
+  .project-card,
+  .color-overlay,
+  .project-content {
+    height: calc(94vh - 24rem);
+  }
+  .slider-dot-control {
+    bottom: 0;
+  }
+  .slider-wrapper {
+    height: calc(94vh - 20rem);
+  }
+  .project-desc {
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 481px) {
