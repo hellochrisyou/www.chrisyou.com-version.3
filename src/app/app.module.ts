@@ -15,6 +15,8 @@ import { RecordingModule } from './recording/recording.module';
 import { ResumeModule } from './resume/resume.module';
 import { TestimonialModule } from './testimonial/testimonial.module';
 import { SocialMediaModule } from './social-media/social-media.module';
+import { V1Module } from './v1/v1.module';
+import { V2Module } from './v2/v2.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -33,6 +35,8 @@ import { SocialMediaModule } from './social-media/social-media.module';
     ResumeModule,
     SkillModule,
     TestimonialModule,
+    V1Module,
+    V2Module,
     FlexLayoutModule
   ],
   providers: [],
