@@ -1,3 +1,4 @@
+import { VersionModule } from './version/version.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { SkillModule } from './skill/skill.module';
 import { ProjectModule } from './project/project.module';
@@ -15,8 +16,6 @@ import { RecordingModule } from './recording/recording.module';
 import { ResumeModule } from './resume/resume.module';
 import { TestimonialModule } from './testimonial/testimonial.module';
 import { SocialMediaModule } from './social-media/social-media.module';
-import { V1Module } from './v1/v1.module';
-import { V2Module } from './v2/v2.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -35,8 +34,7 @@ import { V2Module } from './v2/v2.module';
     ResumeModule,
     SkillModule,
     TestimonialModule,
-    V1Module,
-    V2Module,
+    VersionModule,
     FlexLayoutModule
   ],
   providers: [],
