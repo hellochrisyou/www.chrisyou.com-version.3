@@ -49,6 +49,6 @@
     "typescript": "~3.7.5",
     "karma-cli": "^2.0.0",
     "rxjs-tslint": "^0.1.7",
-    "terser": "^3.14.1"
+    "terser": "^4.8.1"
   }
 }
